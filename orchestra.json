@@ -1,0 +1,23 @@
+{
+    "name": "orchestra-mcp/plugin-tools-extension-generator",
+    "description": "tools-extension-generator tools plugin for Orchestra MCP.",
+    "type": "tools",
+    "license": "MIT",
+    "homepage": "https://orchestra-mcp.dev",
+    "support": {
+        "issues": "https://github.com/orchestra-mcp/plugin-tools-extension-generator/issues",
+        "source": "https://github.com/orchestra-mcp/plugin-tools-extension-generator"
+    },
+    "require": {
+        "orchestra-mcp/gen-go": "^0.1.0",
+        "orchestra-mcp/sdk-go": "^0.1.0"
+    },
+    "bin": "tools-extension-generator",
+    "extra": {
+        "plugin-id": "tools.tools-extension-generator",
+        "provides": ["tools"],
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
